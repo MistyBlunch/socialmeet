@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  box-sizing: content-box;
+}
+
+h1 { font-size: 3vw; }
+h2 { font-size: 2.6vw; }
+h3 { font-size: 2.4vw; }
+h4 { font-size: 1.6vw; }
+h5 { font-size: 1.4vw; }
+h6 { font-size: 1.2vw; }
+
+.carousel, .carousel-inner, .carousel-item, .wallpaper {
+  height: 90vh;
+}
+
+.carousel-item .wallpaper{
+  filter: brightness(.4);
+} 
+
+.carousel-item .sm-logo {
+  width: 20vw;
+}
+
+.carousel-caption{
+  transform: translateY(-5%);
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow-color{
+  color: #ffd600;
+}
+
+.pay-container {
+  margin: 1rem 0 2rem 0;
+  padding: .5rem 1rem;
+  background-color: transparent;
+  border: 2px solid #ffd600;
+  border-radius: 8px;
+}
+
+.pay-btns-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #ffd600;
+}
+
+.paypal-btn {
+  margin-bottom: .5rem;
+}
+
+/* Footer */
+#sm-footer {
+  background-color: #333333;
+  padding: 1rem 0;
+  height: 10vh;
+}
+
+#sm-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sm-footer .social-container {
+  display: flex;
+}
+
+#sm-footer .social-container i {
+  font-size: 1.9rem;
+  color: #ffd600;
+  padding: 0 .5rem;
+}
+
+.logo-foot {
+  width: 250px;
+}
+
+@media screen and (max-width: 800px) {
+  h1 { font-size: 30px; }
+
+  h2 { font-size: 25px; }
+
+  h3 { font-size: 22px; }
+
+  h4 { font-size: 20px; }
+
+  h5 { font-size: 18px; }
+
+  h6 { font-size: 14px;} 
+
+  .carousel-item .sm-logo {
+   width: 300px;
+  }
+  .sm-desc {
+    font-size: 18px;
+  }
+  .carousel-item  .wallpaper {
+    height: 910px;
+    object-fit:cover;
+  }
+  .carousel, .carousel-inner, .carousel-item, .wallpaper {
+    height: auto;
+  }
+  #sm-footer .social-container i {
+    font-size: 1.2rem;
+  }
+  .logo-foot {
+    width: 180px;
+  }
+}
