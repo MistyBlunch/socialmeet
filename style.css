@@ -131,7 +131,7 @@ h6 { font-size: 1.2vw; }
 
 #sm-footer .social-container i {
   font-size: 1.9rem;
-  color: #ffd600;
+  color: #fff;
   padding: 0 .5rem;
 }
 
@@ -170,5 +170,11 @@ h6 { font-size: 1.2vw; }
   }
   .logo-foot {
     width: 180px;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .carousel-caption img {
+    width: 80%;
   }
 }
